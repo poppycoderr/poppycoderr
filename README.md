@@ -90,7 +90,7 @@
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Jetbrain](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
 </div>
 
 <div align="center">
@@ -112,8 +112,9 @@
   <!-- Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=poppycoderr&theme=react-dark&hide_border=true&custom_title=Elijah%20Du's%20Contribution%20Activity&bg_color=0d1117&color=4285F4&line=34A853&point=FBBC05&area=true&area_color=EA4335" width="98%" />
 
-  <!-- Language Stats -->
+  <!-- Language Stats 
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=poppycoderr&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=4285F4&text_color=FBBC05" width="49%" alt="Elijah Du's Most Used Languages" />
+  -->
 
   <!-- GitHub Trophies -->
   <img src="https://github-profile-trophy.vercel.app/?username=poppycoderr&theme=algolia&no-frame=true&row=1&column=6" width="98%" alt="Elijah Du's GitHub Trophies" />
