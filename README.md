@@ -101,23 +101,20 @@
 
 <div align="center">
 
-  <!-- GitHub Stats with Particle Style -->
-  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=poppycoderr&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=4285F4&icon_color=34A853&text_color=FBBC05" alt="Elijah Du's GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/poppycoderr/poppycoderr/output/github-contribution-grid-snake-dark.svg" alt="3D Graph" width="98%" />
 
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=poppycoderr&theme=tokyonight&hide_border=true&background=0d1117&ring=4285F4&fire=EA4335&currStreakLabel=34A853" alt="Elijah Du's Contribution Stats" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=poppycoderr&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=4285F4&icon_color=34A853&text_color=FBBC05" alt="Elijah's GitHub Stats" />
 
-  <!-- 3D Contribution Graph -->
-  <img src="https://raw.githubusercontent.com/poppycoderr/poppycoderr/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution 3D Graph" width="98%" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=poppycoderr&theme=tokyonight&hide_border=true&background=0d1117&ring=4285F4&fire=EA4335&currStreakLabel=34A853" alt="Elijah's Contribution Stats" />
 
-  <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=poppycoderr&theme=react-dark&hide_border=true&custom_title=Elijah%20Du's%20Contribution%20Activity&bg_color=0d1117&color=4285F4&line=34A853&point=FBBC05&area=true&area_color=EA4335" width="98%" />
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=poppycoderr&theme=react-dark&hide_border=true&custom_title=Elijah's%20Contribution%20Activity&bg_color=0d1117&color=4285F4&line=34A853&point=FBBC05&area=true&area_color=EA4335" width="98%" />
 
   <!-- Language Stats 
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=poppycoderr&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=4285F4&text_color=FBBC05" width="49%" alt="Elijah Du's Most Used Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=poppycoderr&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=4285F4&text_color=FBBC05" width="49%" alt="Elijah's Most Used Languages" />
   -->
 
-  <!-- GitHub Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=poppycoderr&theme=algolia&no-frame=true&row=1&column=6" width="98%" alt="Elijah Du's GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=poppycoderr&theme=algolia&no-frame=true&row=1&column=6" width="98%" alt="GitHub Trophies" />
 </div>
 
 <div align="center">
