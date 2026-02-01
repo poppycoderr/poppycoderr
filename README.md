@@ -5,7 +5,7 @@
 
 <!-- Dynamic Title -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=1000&color=4285F4&center=true&vCenter=true&random=false&width=600&height=70&lines=Hey+there!+I'm+Elijah+Du+👨‍💻;Java+Backend+Engineer+%7C+8%2B+Years;Enterprise+Architecture+Specialist;AI+Explorer+%26+Tech+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&duration=3000&pause=1000&color=4285F4&center=true&vCenter=true&random=false&width=1000&height=70&lines=Hey+there!+I'm+Elijah;Remote+Senior+Backend+Engineer;Python+%26+AWS+Specialist+%7C+Java+Expert;8%2B+Years+Scalable+Systems;AI+Integrator+%26+Cloud-Native+Architect" alt="Typing SVG" />
 </div>
 
 <!-- Profile Badges -->
@@ -26,13 +26,13 @@
 
 <p align="left">
   <ul>
-    <li>🔭 I'm a <b>Java Backend Engineer</b> with <b>8+ years</b> of professional experience</li>
-    <li>🚀 Specialized in building <b>high-performance</b>, <b>highly-available</b> enterprise systems</li>
-    <li>🌱 Currently exploring and learning <b>Artificial Intelligence</b> and its applications</li>
-    <li>💡 Enthusiastic about integrating <b>AI capabilities</b> with <b>traditional backend systems</b></li>
-    <li>🛠️ Focused on <b>Domain-Driven Design</b>, <b>Microservices</b>, and <b>Cloud-Native</b> applications</li>
-    <li>📚 Lifelong learner, constantly exploring new technologies and best practices</li>
-    <li>⚡ Fun fact: I believe good code is like a good joke - it doesn't need explanation!</li>
+    <li>🔭 I'm a <b>Remote Senior Backend Engineer</b> with <b>8+ years</b> of production experience</li>
+    <li>🚀 Transitioned from Java/Spring expertise to Python/FastAPI + AWS for cloud-native systems</li>
+    <li>🌱 Specialized in <b>high-throughput distributed systems</b>, handling 10k+ QPS</li>
+    <li>💡 Integrating <b>AI (LLM/RAG)</b> with backend architectures for intelligent enterprise solutions</li>
+    <li>🛠️ Focused on <b>Domain-Driven Design</b>, <b>Microservices</b>, <b>Cloud-Native</b>, and <b>Data Optimization</b> (e.g., SQL/Redshift)</li>
+    <li>📚 Lifelong learner, exploring multi-cloud (AWS/Azure AKS) and automation</li>
+    <li>⚡ Fun fact: Good code is like a good joke - it doesn't need explanation!</li>
   </ul>
 </p>
 
@@ -45,52 +45,24 @@
 <!-- Tech Stack Section -->
 <div align="center">
 
-### 💻 Core Expertise
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Spring Cloud](https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![DDD](https://img.shields.io/badge/DDD-FF6F00?style=for-the-badge&logo=ddd&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 
-### 🧠 AI & Data Science (Learning)
+### 💻 Core & Frameworks
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"/>
 
-![Python](https://img.shields.io/badge/Python_(Learning)-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![LLM](https://img.shields.io/badge/LLM_(Learning)-00FFFF?style=for-the-badge&logo=openai&logoColor=black)
-![RAG](https://img.shields.io/badge/RAG_(Learning)-FF4B4B?style=for-the-badge&logo=openai&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/ML_(Exploring)-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+### ☁️ Cloud & DevOps
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
+<img src="https://img.shields.io/badge/Azure_AKS-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure AKS"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
 
-### 📊 Databases & Storage
+### 🧠 AI & Data
+<img src="https://img.shields.io/badge/LLM_RAG-764ABC?style=for-the-badge&logo=openai&logoColor=white" alt="LLM/RAG"/>
+<img src="https://img.shields.io/badge/Redshift-8C51A6?style=for-the-badge&logo=amazon-redshift&logoColor=white" alt="Redshift"/>
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![OSS](https://img.shields.io/badge/Object_Storage-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
-
-### ☁️ Cloud Native & DevOps
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-
-### 🔄 Middleware & Messaging
-
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-
-### 🔧 Tools & Others
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
 </div>
 
 <div align="center">
@@ -100,87 +72,69 @@
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> GitHub Stats & Activity
 
 <div align="center">
-
   <img src="https://raw.githubusercontent.com/poppycoderr/poppycoderr/output/github-contribution-grid-snake-dark.svg" alt="3D Graph" width="98%" />
-
   <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=poppycoderr&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=4285F4&icon_color=34A853&text_color=FBBC05" alt="Elijah's GitHub Stats" />
-
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=poppycoderr&theme=tokyonight&hide_border=true&background=0d1117&ring=4285F4&fire=EA4335&currStreakLabel=34A853" alt="Elijah's Contribution Stats" />
-
-
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=poppycoderr&theme=react-dark&hide_border=true&custom_title=Elijah's%20Contribution%20Activity&bg_color=0d1117&color=4285F4&line=34A853&point=FBBC05&area=true&area_color=EA4335" width="98%" />
-
-  <!-- Language Stats 
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=poppycoderr&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=4285F4&text_color=FBBC05" width="49%" alt="Elijah's Most Used Languages" />
-  -->
-
-  <img src="https://github-profile-trophy.vercel.app/?username=poppycoderr&theme=algolia&no-frame=true&row=1&column=6" width="98%" alt="GitHub Trophies" />
 </div>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 </div>
 
+<!-- Projects Section -->
 ## ✨ Featured Projects
 
-> **Note:** Due to corporate IP restrictions, specific implementation details and screenshots of professional projects cannot be shared.
+> **Note:** Due to corporate IP restrictions, specific implementation details and screenshots of professional projects cannot be shared publicly.
 
 <table>
   <tr>
-    <td width="50%" align="center">
-      <h3>🤖 AI-Powered Intelligent Chatbot</h3>
-      <img src="https://media.giphy.com/media/l0IyeheChYxx2byDu/giphy.gif" width="80%" alt="AI Chatbot"/>
-      <br>
-      <p align="center">
-        <img src="https://img.shields.io/badge/DDD-blue?style=for-the-badge" alt="DDD"/>
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"/>
-        <img src="https://img.shields.io/badge/LLM-FF6F61?style=for-the-badge" alt="LLM"/>
-        <img src="https://img.shields.io/badge/RAG-764ABC?style=for-the-badge" alt="RAG"/>
+    <td width="50%" align="center" valign="top" style="padding: 15px;">
+      <h3>🤖 AI-Powered Knowledge Q&A</h3>
+      <!-- 移除固定高度，增加圆角和阴影 -->
+      <img src="https://media.giphy.com/media/l0IyeheChYxx2byDu/giphy.gif" width="95%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" alt="AI Chatbot"/>
+      <br><br>
+      <p>
+        <img src="https://img.shields.io/badge/DDD-blue?style=flat-square" alt="DDD"/>
+        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" alt="Spring Boot"/>
+        <img src="https://img.shields.io/badge/RAG-764ABC?style=flat-square" alt="RAG"/>
+        <img src="https://img.shields.io/badge/Kafka-black?style=flat-square&logo=apache-kafka&logoColor=white" alt="Kafka"/>
       </p>
-      <p align="center">
-        Enterprise-grade conversational AI platform with contextual understanding, multi-tenancy, and horizontal scaling.
-      </p>
+      <p align="left">Secure enterprise platform with multi-modal retrieval, RAG pipelines, and knowledge graph integration for accurate contextual responses.</p>
     </td>
-    <td width="50%" align="center">
-      <h3>📚 Enterprise Knowledge Base</h3>
-      <img src="https://media.giphy.com/media/JrXas5ecb4FkwbFpIE/giphy.gif" width="80%" alt="Knowledge Base"/>
-      <br>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Cloud"/>
-        <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+    <td width="50%" align="center" valign="top" style="padding: 15px;">
+      <h3>📚 Enterprise Document Collab</h3>
+      <img src="https://media.giphy.com/media/JrXas5ecb4FkwbFpIE/giphy.gif" width="95%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" alt="Knowledge Base"/>
+      <br><br>
+      <p>
+        <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Cloud"/>
+        <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" alt="Elasticsearch"/>
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
       </p>
-      <p align="center">
-        Comprehensive document management with versioning, real-time collaboration and powerful search capabilities.
-      </p>
+      <p align="left">Cloud-native system for massive document management with real-time search, versioning, and high availability using ES.</p>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
-      <h3>🚀 SaaS Multi-tenant Platform</h3>
-      <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="80%" alt="SaaS Platform"/>
-      <br>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+    <td width="50%" align="center" valign="top" style="padding: 15px;">
+      <h3>🚨 Fintech Risk Control System</h3>
+      <img src="https://media.giphy.com/media/3o7ZetIsjtbkgNE1I4/giphy.gif" width="95%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" alt="Risk Control"/>
+      <br><br>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+        <img src="https://img.shields.io/badge/AWS_Redshift-8C51A6?style=flat-square&logo=amazon-redshift&logoColor=white" alt="Redshift"/>
       </p>
-      <p align="center">
-        Scalable business platform with isolated tenant environments, custom workflows and white-labeling capabilities.
-      </p>
+      <p align="left">Real-time monitoring system optimized for 10M+ rows, with migration strategies to Redshift for scalable analytics.</p>
     </td>
-    <td width="50%" align="center">
-      <h3>⚡ High-Performance Flash Sale System</h3>
-      <img src="https://media.giphy.com/media/3o7ZetIsjtbkgNE1I4/giphy.gif" width="80%" alt="Flash Sale System"/>
-      <br>
-      <p align="center">
-        <img src="https://img.shields.io/badge/RocketMQ-D77310?style=for-the-badge&logo=apache&logoColor=white" alt="RocketMQ"/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
-        <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua"/>
+    <td width="50%" align="center" valign="top" style="padding: 15px;">
+      <h3>🚀 SaaS Multi-Tenant Platform</h3>
+      <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="95%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);" alt="SaaS Platform"/>
+      <br><br>
+      <p>
+        <img src="https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+        <img src="https://img.shields.io/badge/Azure_AKS-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white" alt="Azure AKS"/>
       </p>
-      <p align="center">
-        High-concurrency e-commerce system handling 100K+ QPS with distributed rate limiting and multi-layer caching.
-      </p>
+      <p align="left">Scalable platform designed with tenant isolation, custom workflows, and multi-cloud support on Azure AKS.</p>
     </td>
   </tr>
 </table>
@@ -202,7 +156,7 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="30"/>
   </a>
   <a href="https://x.com/x_elijah_du" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" height="30"/>
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" height="30"/>
   </a>
   <a href="https://medium.com/@elijahdu" target="_blank">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" height="30"/>
@@ -217,12 +171,6 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="70%" />
 </div>
 
-<!-- Visitor Counter -->
-<div align="center">
-  <h3>👀 Visitor Count</h3>
-  <img src="https://profile-counter.glitch.me/poppycoderr/count.svg" alt="Visitor Count" />
-</div>
-
 <!-- Bottom Wave -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Github Bottom Wave Animation" width="100%">
@@ -232,4 +180,3 @@
 <div align="center">
   <sup>⭐ If you like my projects, don't forget to give them a star! ⭐</sup>
 </div>
-
