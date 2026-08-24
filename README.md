@@ -57,7 +57,7 @@ Current focus:
 `domain-driven-kit` is my long-running open-source project for turning DDD ideas into executable Java conventions: layered project structure, common response and exception contracts, pagination, mapper abstractions, MyBatis-Plus repository support, Spring Boot starters and architecture guard rules.
 
 - Repository: [domain-driven-kit](https://github.com/poppycoderr/domain-driven-kit)
-- Documentation: [DDK docs](https://poppycoder.netlify.app/#/docs/ddk/)
+- Documentation: [DDK docs](https://poppycoder.netlify.app/#/docs/ddk/index.md)
 - Current direction: engineering baseline, domain model primitives, starter normalization and runnable examples
 
 ### codesphere
