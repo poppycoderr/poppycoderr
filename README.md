@@ -1,65 +1,68 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Elijah Du — backend architecture and applied AI" />
+  <img src="./assets/profile-header.svg" width="100%" alt="Systems that stay clear under pressure — backend architecture, distributed systems and applied AI" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=780&lines=Building+systems+that+remain+clear+under+pressure;Turning+architecture+decisions+into+executable+guardrails;Designing+for+failure%2C+recovery%2C+and+change" alt="Engineering principles" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3200&pause=1400&color=7D8590&center=true&vCenter=true&width=640&lines=Turning+architecture+decisions+into+executable+guardrails.;Designing+for+failure%2C+recovery+and+change.;Measuring+before+claiming." alt="Engineering principles" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/elijahdu/"><img src="https://img.shields.io/badge/LinkedIn-Elijah%20Du-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://poppycoder.netlify.app/"><img src="https://img.shields.io/badge/Technical%20Notes-codesphere-8957E5?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Technical notes" /></a>
-  <a href="mailto:poppycoder@gmail.com"><img src="https://img.shields.io/badge/Email-poppycoder-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/elijahdu/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://poppycoder.netlify.app/">Technical notes</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:poppycoder@gmail.com">poppycoder@gmail.com</a>
 </p>
 
-## Hello
+<br />
 
-I am a senior backend engineer with **9 years of experience** across fintech, trading, payments and enterprise platforms. I work on systems where reliability has to survive high concurrency, large datasets, asynchronous workflows, search, cloud deployment and production incidents.
+### About
 
-My foundation is **Java, Spring Boot and distributed systems**, with recent production work in **Python, FastAPI and AWS**. I care about explicit boundaries, observable behavior and systems that remain understandable as traffic, data and teams grow.
+Senior backend engineer with **nine years** across fintech, trading, payments and enterprise platforms — systems where reliability has to hold under high concurrency, large datasets, asynchronous workflows and real production incidents.
 
-## Engineering focus
+Grounded in **Java, Spring Boot and distributed systems**, with recent production work in **Python, FastAPI and AWS**. I care about explicit boundaries, observable behavior, and systems that stay understandable as traffic, data and teams grow.
 
-| Area | Working experience |
-|---|---|
-| Backend systems | Java, Spring Boot, Python, FastAPI, REST APIs and microservices |
-| Architecture | DDD, distributed systems, consistency, failure handling and asynchronous workflows |
-| Data & search | PostgreSQL, MySQL, Redshift, Elasticsearch, Redis, Kafka and RabbitMQ |
-| Cloud & operations | AWS, Docker, Kubernetes, CI/CD, tracing, diagnostics and performance tuning |
-| Applied AI | Retrieval, evaluation, permission boundaries and human-agent engineering workflows |
+<br />
 
-## How I work
+### Focus
+
+| Area | Stack |
+|:--|:--|
+| **Backend** | Java · Spring Boot · Python · FastAPI · REST · microservices |
+| **Architecture** | DDD · distributed systems · consistency · failure handling · async workflows |
+| **Data & search** | PostgreSQL · MySQL · Redshift · Elasticsearch · Redis · Kafka · RabbitMQ |
+| **Cloud & ops** | AWS · Docker · Kubernetes · CI/CD · tracing · performance tuning |
+| **Applied AI** | Retrieval · evaluation · permission boundaries · human–agent workflows |
+
+<br />
+
+### Principles
 
 ```text
-make the boundary explicit  →  encode the rule  →  test the failure path  →  measure the result
+explicit boundary  ─▶  encoded rule  ─▶  tested failure path  ─▶  measured result
 ```
 
-- **Clarity under pressure** — production systems should remain understandable when they fail.
-- **Architecture as code** — important boundaries belong in types, tests and CI rather than slides alone.
-- **Evidence before claims** — retrieval and performance changes need reproducible measurements.
-- **Agent-ready engineering** — coding agents should inherit the same constraints and feedback as human contributors.
+- **Clarity under pressure** — a production system should stay legible when it fails.
+- **Architecture as code** — boundaries belong in types, tests and CI, not only in diagrams.
+- **Evidence before claims** — retrieval and performance changes need reproducible numbers.
+- **Agent-ready engineering** — coding agents inherit the same constraints and feedback as people.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Backend-Java%20%7C%20Python-1F6FEB?style=flat-square" alt="Backend: Java and Python" />
-  <img src="https://img.shields.io/badge/Architecture-DDD%20%7C%20Distributed%20Systems-238636?style=flat-square" alt="Architecture: DDD and distributed systems" />
-  <img src="https://img.shields.io/badge/Platform-AWS%20%7C%20Docker%20%7C%20Kubernetes-FF9900?style=flat-square" alt="Platform: AWS, Docker and Kubernetes" />
-  <img src="https://img.shields.io/badge/Applied%20AI-RAG%20%7C%20Evaluation-8957E5?style=flat-square" alt="Applied AI: RAG and evaluation" />
-</p>
+<br />
 
-## Open-source lab
+### Notebook
 
-I use a few public repositories to test ideas, document trade-offs and turn engineering conventions into working examples. They are active, evolving projects rather than finished products.
+<sub>A few public repositories where I test ideas and write down trade-offs. Small, evolving, and honest about it.</sub>
 
-- [Grounded Access](https://github.com/poppycoderr/grounded-access) — experiments in permission-aware retrieval and reproducible evaluation.
-- [Domain Driven Kit](https://github.com/poppycoderr/domain-driven-kit) — reusable Spring Boot patterns and executable architecture rules.
-- [codesphere](https://github.com/poppycoderr/codesphere) — technical notes drawn from backend and production work.
+- [grounded-access](https://github.com/poppycoderr/grounded-access) — permission-aware retrieval with reproducible evaluation
+- [domain-driven-kit](https://github.com/poppycoderr/domain-driven-kit) — Spring Boot DDD patterns and executable architecture rules
+- [codesphere](https://github.com/poppycoderr/codesphere) — technical notes from backend and production work
 
-## Activity
+<br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/poppycoderr/poppycoderr/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/poppycoderr/poppycoderr/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/poppycoderr/poppycoderr/output/github-contribution-grid-snake.svg" alt="GitHub contribution animation" />
+  <img src="https://raw.githubusercontent.com/poppycoderr/poppycoderr/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution activity" />
 </picture>
 
-<p align="center"><strong>Interested in backend and platform work where reliability, architecture and practical AI meet.</strong></p>
+<p align="center"><sub>Open to backend and platform work where reliability, architecture and practical AI meet.</sub></p>

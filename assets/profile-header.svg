@@ -1,57 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Elijah Du — Senior Backend Engineer</title>
-  <desc id="desc">A dark technical banner connecting backend architecture, distributed systems and applied AI.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Systems that stay clear under pressure</title>
+  <desc id="desc">A quiet dark banner with a layered architecture diagram: interface, domain and infrastructure.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0D1117"/>
-      <stop offset="0.58" stop-color="#111A2E"/>
-      <stop offset="1" stop-color="#21143C"/>
+      <stop offset="0" stop-color="#0A0D12"/>
+      <stop offset="1" stop-color="#0F1520"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#58A6FF"/>
-      <stop offset="1" stop-color="#A371F7"/>
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#7DD3FC" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#8B949E" stroke-opacity=".08"/>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7DD3FC" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#7DD3FC" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#E6EDF3" fill-opacity=".06"/>
     </pattern>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="7"/>
-    </filter>
+    <clipPath id="card"><rect width="1200" height="320" rx="20"/></clipPath>
   </defs>
 
-  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
-  <path d="M0 244C210 190 337 294 548 237S920 129 1200 200V300H0Z" fill="#58A6FF" opacity=".035"/>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <ellipse cx="872" cy="160" rx="300" ry="190" fill="url(#halo)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="319" rx="19.5" fill="none" stroke="#E6EDF3" stroke-opacity=".08"/>
 
-  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
-    <text x="64" y="61" fill="#8B949E" font-size="14" font-weight="700" letter-spacing="3">BACKEND ARCHITECTURE  /  APPLIED AI</text>
-    <text x="61" y="132" fill="#F0F6FC" font-size="54" font-weight="750" letter-spacing="-1.5">Elijah Du</text>
-    <rect x="63" y="151" width="425" height="4" rx="2" fill="url(#accent)"/>
-    <text x="64" y="191" fill="#C9D1D9" font-size="21">Senior Backend Engineer</text>
-    <text x="64" y="226" fill="#8B949E" font-size="16">Reliable systems · explicit boundaries · measurable engineering</text>
+  <!-- Headline -->
+  <text x="72" y="80" fill="#7DD3FC" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="2.4">SENIOR BACKEND ENGINEER <tspan fill="#3D4654">/</tspan> <tspan fill="#7D8590">APPLIED AI</tspan></text>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',sans-serif" font-size="44" font-weight="600" letter-spacing="-1.2">
+    <text x="70" y="140" fill="#F0F3F6">Systems that stay clear</text>
+    <text x="70" y="192" fill="#7D8590">under pressure.</text>
+  </g>
+  <rect x="72" y="218" width="220" height="1.5" fill="url(#accent)"/>
+  <text x="72" y="252" fill="#8B949E" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',sans-serif" font-size="15">Backend architecture, distributed systems and applied AI.</text>
+  <text x="72" y="280" fill="#4A5361" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1.2">java · spring boot · python · fastapi · aws</text>
+
+  <!-- Layered architecture -->
+  <g transform="translate(-28 0)">
+  <g fill="none" stroke-linejoin="round">
+    <path d="M770 96V226M1030 96V226M900 141V271" stroke="#E6EDF3" stroke-opacity=".14" stroke-dasharray="2 5"/>
+    <path d="M770 226L900 181L1030 226L900 271Z" fill="#0F1520" stroke="#E6EDF3" stroke-opacity=".22" stroke-width="1.2"/>
+    <path d="M770 161L900 116L1030 161L900 206Z" fill="#0F1520" stroke="#E6EDF3" stroke-opacity=".32" stroke-width="1.2"/>
+    <path d="M770 96L900 51L1030 96L900 141Z" fill="#7DD3FC" fill-opacity=".06" stroke="#7DD3FC" stroke-opacity=".85" stroke-width="1.4"/>
+    <path d="M835 96L900 73.5L965 96L900 118.5Z" stroke="#7DD3FC" stroke-opacity=".35"/>
+    <path d="M900 96V226" stroke="#7DD3FC" stroke-opacity=".25"/>
   </g>
 
-  <g transform="translate(765 44)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="155" cy="105" r="72" fill="#58A6FF" opacity=".08" filter="url(#glow)"/>
-    <path d="M20 53H99L132 86M20 105H132M20 157H99L132 124" stroke="#303B4D" stroke-width="2"/>
-    <path d="M174 86L207 53H286M174 105H286M174 124L207 157H286" stroke="#303B4D" stroke-width="2"/>
+  <g fill="#7DD3FC">
+    <circle cx="900" cy="96" r="3"/>
+    <circle cx="900" cy="161" r="2.5" fill-opacity=".55"/>
+    <circle cx="900" cy="226" r="2.5" fill-opacity=".35"/>
+    <circle cx="900" cy="96" r="2.2">
+      <animate attributeName="cy" values="96;226" dur="3.6s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".45 0 .55 1"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.8;1" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-    <g fill="#0D1117" stroke="#58A6FF" stroke-width="2.5">
-      <rect x="0" y="37" width="42" height="32" rx="8"/>
-      <rect x="0" y="89" width="42" height="32" rx="8"/>
-      <rect x="0" y="141" width="42" height="32" rx="8"/>
-      <rect x="264" y="37" width="42" height="32" rx="8"/>
-      <rect x="264" y="89" width="42" height="32" rx="8"/>
-      <rect x="264" y="141" width="42" height="32" rx="8"/>
-    </g>
-
-    <path d="M153 63l38 15v35c0 24-16 41-38 51-22-10-38-27-38-51V78Z" fill="#161B22" stroke="url(#accent)" stroke-width="3"/>
-    <path d="m136 106 12 12 24-29" stroke="#7EE787" stroke-width="5"/>
-
-    <g fill="#A371F7">
-      <circle cx="99" cy="53" r="4"/><circle cx="99" cy="157" r="4"/>
-      <circle cx="207" cy="53" r="4"/><circle cx="207" cy="157" r="4"/>
-    </g>
-    <g fill="#58A6FF"><circle cx="99" cy="105" r="4"/><circle cx="207" cy="105" r="4"/></g>
+  <path d="M1036 96H1058M1036 161H1058M1036 226H1058" stroke="#E6EDF3" stroke-opacity=".18"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="1.6">
+    <text x="1066" y="100" fill="#7DD3FC">interface</text>
+    <text x="1066" y="165" fill="#8B949E">domain</text>
+    <text x="1066" y="230" fill="#6E7681">infrastructure</text>
+  </g>
   </g>
 </svg>
