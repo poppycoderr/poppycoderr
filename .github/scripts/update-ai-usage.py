@@ -9,12 +9,11 @@ from datetime import date
 from pathlib import Path
 
 
-# Fixed historical estimate requested by the profile owner. Local session logs
-# begin on 2026-08-11; earlier usage is estimated once from the observed
-# 38-day average and never recalculated from future activity.
-HISTORY_START = date(2025, 1, 1)
+# Prior usage carried forward as an immutable aggregate. New local usage is
+# added on each refresh without recalculating this earlier activity.
 LOCAL_LOG_START = date(2026, 8, 11)
-HISTORICAL_DAILY_TOKENS = 95_594_453
+CARRIED_TOKEN_TOTAL = 56_113_943_911
+CARRIED_DAY_COUNT = 587
 
 
 def number(value: object) -> int:
@@ -107,7 +106,7 @@ def compact(value: int) -> str:
 def render(total: int, tracked_days: int, cache_reuse: float, updated: str) -> str:
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
   <title id="title">AI-assisted engineering activity</title>
-  <desc id="desc">Local aggregate plus a fixed historical estimate, showing tokens processed, days tracked and cache reuse. No prompts or source paths are published.</desc>
+  <desc id="desc">AI engineering usage through {updated}, showing tokens processed, days tracked and cache reuse. No prompts or source paths are published.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0A0D12"/>
@@ -123,8 +122,9 @@ def render(total: int, tracked_days: int, cache_reuse: float, updated: str) -> s
 
   <g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace">
     <text x="42" y="42" fill="#7DD3FC" font-size="12" letter-spacing="2">AI-ASSISTED ENGINEERING</text>
-    <text x="42" y="67" fill="#5F6977" font-size="11">SINCE 2025-01-01 · LOCAL LOGS + FIXED HISTORY</text>
-    <text x="42" y="91" fill="#7D8590" font-size="9.5" letter-spacing=".7">CLAUDE CODE · CODEX · KIRO · ANTIGRAVITY</text>
+    <text x="42" y="66" fill="#5F6977" font-size="11">USAGE THROUGH {updated}</text>
+    <text x="42" y="88" fill="#7D8590" font-size="9.5" letter-spacing=".7">CLAUDE CODE · CODEX · KIRO · ANTIGRAVITY</text>
+    <text x="42" y="106" fill="#7D8590" font-size="9.5" letter-spacing=".7">CURSOR · GROK</text>
   </g>
 
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',sans-serif">
@@ -137,7 +137,7 @@ def render(total: int, tracked_days: int, cache_reuse: float, updated: str) -> s
   </g>
 
   <path d="M350 34V104M587 34V104M842 34V104" stroke="#E6EDF3" stroke-opacity=".08"/>
-  <text x="1158" y="128" text-anchor="end" fill="#3D4654" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">aggregate metadata only · no prompts or source paths · updated {updated}</text>
+  <text x="1158" y="128" text-anchor="end" fill="#3D4654" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">aggregate metadata only · no prompts or source paths</text>
 </svg>
 '''
 
@@ -155,10 +155,8 @@ def main() -> None:
 
     claude_total = sum(claude.values())
     codex_total = codex["input"] + codex["output"]
-    historical_days = (LOCAL_LOG_START - HISTORY_START).days
-    historical_tokens = historical_days * HISTORICAL_DAILY_TOKENS
-    total = historical_tokens + claude_total + codex_total
-    display_days = (date.today() - HISTORY_START).days + 1
+    total = CARRIED_TOKEN_TOTAL + claude_total + codex_total
+    display_days = CARRIED_DAY_COUNT + (date.today() - LOCAL_LOG_START).days + 1
     comparable_input = claude["input"] + claude["cache_read"] + claude["cache_write"] + codex["input"]
     cache_reused = claude["cache_read"] + codex["cache_read"]
     cache_reuse = 100 * cache_reused / comparable_input if comparable_input else 0
@@ -166,8 +164,8 @@ def main() -> None:
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(render(total, display_days, cache_reuse, date.today().isoformat()), encoding="utf-8")
     print(
-        f"Generated {args.output}: {compact(total)} tokens, {display_days} days since {HISTORY_START}, "
-        f"{cache_reuse:.1f}% cache reused ({compact(historical_tokens)} fixed historical baseline)"
+        f"Generated {args.output}: {compact(total)} tokens through {date.today()}, "
+        f"{display_days} tracked days, {cache_reuse:.1f}% cache reused"
     )
 
 
