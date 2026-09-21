@@ -55,7 +55,6 @@ explicit boundary  ─▶  encoded rule  ─▶  tested failure path  ─▶  me
 
 - [grounded-access](https://github.com/poppycoderr/grounded-access) — permission-aware retrieval with reproducible evaluation
 - [domain-driven-kit](https://github.com/poppycoderr/domain-driven-kit) — Spring Boot DDD patterns and executable architecture rules
-- [codesphere](https://github.com/poppycoderr/codesphere) — technical notes from backend and production work
 
 <br />
 
@@ -66,3 +65,9 @@ explicit boundary  ─▶  encoded rule  ─▶  tested failure path  ─▶  me
 </picture>
 
 <p align="center"><sub>Open to backend and platform work where reliability, architecture and practical AI meet.</sub></p>
+
+<br />
+
+<p align="center">
+  <img src="./assets/ai-usage.svg" width="100%" alt="AI-assisted engineering activity: aggregate token usage, active days and cache reuse" />
+</p>
