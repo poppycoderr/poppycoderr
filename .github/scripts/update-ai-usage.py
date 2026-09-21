@@ -9,6 +9,14 @@ from datetime import date
 from pathlib import Path
 
 
+# Fixed historical estimate requested by the profile owner. Local session logs
+# begin on 2026-08-11; earlier usage is estimated once from the observed
+# 38-day average and never recalculated from future activity.
+HISTORY_START = date(2025, 1, 1)
+LOCAL_LOG_START = date(2026, 8, 11)
+HISTORICAL_DAILY_TOKENS = 95_594_453
+
+
 def number(value: object) -> int:
     return int(value) if isinstance(value, (int, float)) else 0
 
@@ -96,10 +104,10 @@ def compact(value: int) -> str:
     return str(value)
 
 
-def render(total: int, active_days: int, cache_reuse: float, updated: str) -> str:
+def render(total: int, tracked_days: int, cache_reuse: float, updated: str) -> str:
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
   <title id="title">AI-assisted engineering activity</title>
-  <desc id="desc">Local aggregate showing tokens processed, active days and cache reuse. No prompts or source paths are published.</desc>
+  <desc id="desc">Local aggregate plus a fixed historical estimate, showing tokens processed, days tracked and cache reuse. No prompts or source paths are published.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0A0D12"/>
@@ -115,20 +123,21 @@ def render(total: int, active_days: int, cache_reuse: float, updated: str) -> st
 
   <g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace">
     <text x="42" y="42" fill="#7DD3FC" font-size="12" letter-spacing="2">AI-ASSISTED ENGINEERING</text>
-    <text x="42" y="67" fill="#5F6977" font-size="11">LOCAL AGGREGATE · CLAUDE CODE + CODEX · {updated}</text>
+    <text x="42" y="67" fill="#5F6977" font-size="11">SINCE 2025-01-01 · LOCAL LOGS + FIXED HISTORY</text>
+    <text x="42" y="91" fill="#7D8590" font-size="9.5" letter-spacing=".7">CLAUDE CODE · CODEX · KIRO · ANTIGRAVITY</text>
   </g>
 
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',sans-serif">
     <text x="460" y="64" text-anchor="middle" fill="#F0F3F6" font-size="28" font-weight="600">{compact(total)}</text>
     <text x="460" y="88" text-anchor="middle" fill="#6E7681" font-size="11" letter-spacing="1.4">TOKENS PROCESSED</text>
-    <text x="715" y="64" text-anchor="middle" fill="#F0F3F6" font-size="28" font-weight="600">{active_days}</text>
-    <text x="715" y="88" text-anchor="middle" fill="#6E7681" font-size="11" letter-spacing="1.4">ACTIVE DAYS</text>
+    <text x="715" y="64" text-anchor="middle" fill="#F0F3F6" font-size="28" font-weight="600">{tracked_days}</text>
+    <text x="715" y="88" text-anchor="middle" fill="#6E7681" font-size="11" letter-spacing="1.4">DAYS TRACKED</text>
     <text x="970" y="64" text-anchor="middle" fill="#F0F3F6" font-size="28" font-weight="600">{cache_reuse:.1f}%</text>
     <text x="970" y="88" text-anchor="middle" fill="#6E7681" font-size="11" letter-spacing="1.4">CACHE REUSED</text>
   </g>
 
   <path d="M350 34V104M587 34V104M842 34V104" stroke="#E6EDF3" stroke-opacity=".08"/>
-  <text x="1158" y="128" text-anchor="end" fill="#3D4654" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">aggregate metadata only · no prompts or source paths</text>
+  <text x="1158" y="128" text-anchor="end" fill="#3D4654" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">aggregate metadata only · no prompts or source paths · updated {updated}</text>
 </svg>
 '''
 
@@ -146,14 +155,20 @@ def main() -> None:
 
     claude_total = sum(claude.values())
     codex_total = codex["input"] + codex["output"]
-    total = claude_total + codex_total
+    historical_days = (LOCAL_LOG_START - HISTORY_START).days
+    historical_tokens = historical_days * HISTORICAL_DAILY_TOKENS
+    total = historical_tokens + claude_total + codex_total
+    display_days = (date.today() - HISTORY_START).days + 1
     comparable_input = claude["input"] + claude["cache_read"] + claude["cache_write"] + codex["input"]
     cache_reused = claude["cache_read"] + codex["cache_read"]
     cache_reuse = 100 * cache_reused / comparable_input if comparable_input else 0
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(render(total, len(active_days), cache_reuse, date.today().isoformat()), encoding="utf-8")
-    print(f"Generated {args.output}: {compact(total)} tokens, {len(active_days)} active days, {cache_reuse:.1f}% cache reused")
+    args.output.write_text(render(total, display_days, cache_reuse, date.today().isoformat()), encoding="utf-8")
+    print(
+        f"Generated {args.output}: {compact(total)} tokens, {display_days} days since {HISTORY_START}, "
+        f"{cache_reuse:.1f}% cache reused ({compact(historical_tokens)} fixed historical baseline)"
+    )
 
 
 if __name__ == "__main__":
