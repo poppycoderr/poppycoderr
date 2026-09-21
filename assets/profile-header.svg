@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Elijah Du — Senior Backend Engineer</title>
+  <desc id="desc">A dark technical banner connecting backend architecture, distributed systems and applied AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="0.58" stop-color="#111A2E"/>
+      <stop offset="1" stop-color="#21143C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#A371F7"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#8B949E" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <path d="M0 244C210 190 337 294 548 237S920 129 1200 200V300H0Z" fill="#58A6FF" opacity=".035"/>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="64" y="61" fill="#8B949E" font-size="14" font-weight="700" letter-spacing="3">BACKEND ARCHITECTURE  /  APPLIED AI</text>
+    <text x="61" y="132" fill="#F0F6FC" font-size="54" font-weight="750" letter-spacing="-1.5">Elijah Du</text>
+    <rect x="63" y="151" width="425" height="4" rx="2" fill="url(#accent)"/>
+    <text x="64" y="191" fill="#C9D1D9" font-size="21">Senior Backend Engineer</text>
+    <text x="64" y="226" fill="#8B949E" font-size="16">Reliable systems · executable guardrails · measurable retrieval</text>
+  </g>
+
+  <g transform="translate(765 44)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="155" cy="105" r="72" fill="#58A6FF" opacity=".08" filter="url(#glow)"/>
+    <path d="M20 53H99L132 86M20 105H132M20 157H99L132 124" stroke="#303B4D" stroke-width="2"/>
+    <path d="M174 86L207 53H286M174 105H286M174 124L207 157H286" stroke="#303B4D" stroke-width="2"/>
+
+    <g fill="#0D1117" stroke="#58A6FF" stroke-width="2.5">
+      <rect x="0" y="37" width="42" height="32" rx="8"/>
+      <rect x="0" y="89" width="42" height="32" rx="8"/>
+      <rect x="0" y="141" width="42" height="32" rx="8"/>
+      <rect x="264" y="37" width="42" height="32" rx="8"/>
+      <rect x="264" y="89" width="42" height="32" rx="8"/>
+      <rect x="264" y="141" width="42" height="32" rx="8"/>
+    </g>
+
+    <path d="M153 63l38 15v35c0 24-16 41-38 51-22-10-38-27-38-51V78Z" fill="#161B22" stroke="url(#accent)" stroke-width="3"/>
+    <path d="m136 106 12 12 24-29" stroke="#7EE787" stroke-width="5"/>
+
+    <g fill="#A371F7">
+      <circle cx="99" cy="53" r="4"/><circle cx="99" cy="157" r="4"/>
+      <circle cx="207" cy="53" r="4"/><circle cx="207" cy="157" r="4"/>
+    </g>
+    <g fill="#58A6FF"><circle cx="99" cy="105" r="4"/><circle cx="207" cy="105" r="4"/></g>
+  </g>
+</svg>
