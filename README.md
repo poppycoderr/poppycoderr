@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Systems that stay clear under pressure — backend architecture, distributed systems and applied AI" />
+  <img src="./assets/banner-v2.svg" width="100%" alt="Systems that stay clear under pressure — backend architecture, distributed systems and applied AI" />
 </p>
 
 <p align="center">
