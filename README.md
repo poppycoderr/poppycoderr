@@ -11,7 +11,7 @@
   &nbsp;·&nbsp;
   <a href="https://poppycoder.netlify.app/">Technical notes</a>
   &nbsp;·&nbsp;
-  <a href="mailto:poppycoder@gmail.com">poppycoder@gmail.com</a>
+  <a href="mailto:poppycoder@gmail.com">Mail</a>
 </p>
 
 <br />
