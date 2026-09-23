@@ -71,3 +71,7 @@ explicit boundary  ─▶  encoded rule  ─▶  tested failure path  ─▶  me
 <p align="center">
   <img src="./assets/ai-usage.svg" width="100%" alt="AI-assisted engineering activity: aggregate token usage, active days and cache reuse" />
 </p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=poppycoderr&label=profile+views&color=7D8590&style=flat-square" alt="Profile views" />
+</p>
