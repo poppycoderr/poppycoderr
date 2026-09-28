@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
   <title id="title">AI-assisted engineering activity</title>
-  <desc id="desc">AI engineering usage through 2026-09-21, showing tokens processed, days tracked and cache reuse. No prompts or source paths are published.</desc>
+  <desc id="desc">AI engineering usage through 2026-09-28, showing tokens processed, days tracked and cache reuse. No prompts or source paths are published.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0A0D12"/>
@@ -16,17 +16,17 @@
 
   <g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace">
     <text x="42" y="42" fill="#7DD3FC" font-size="12" letter-spacing="2">AI-ASSISTED ENGINEERING</text>
-    <text x="42" y="66" fill="#5F6977" font-size="11">USAGE THROUGH 2026-09-21</text>
+    <text x="42" y="66" fill="#5F6977" font-size="11">USAGE THROUGH 2026-09-28</text>
     <text x="42" y="88" fill="#7D8590" font-size="9.5" letter-spacing=".7">CLAUDE CODE · CODEX · KIRO · ANTIGRAVITY</text>
     <text x="42" y="106" fill="#7D8590" font-size="9.5" letter-spacing=".7">CURSOR · GROK</text>
   </g>
 
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',sans-serif">
-    <text x="460" y="64" text-anchor="middle" fill="#F0F3F6" font-size="28" font-weight="600">59.78B</text>
+    <text x="460" y="64" text-anchor="middle" fill="#F0F3F6" font-size="28" font-weight="600">63.39B</text>
     <text x="460" y="88" text-anchor="middle" fill="#6E7681" font-size="11" letter-spacing="1.4">TOKENS PROCESSED</text>
-    <text x="715" y="64" text-anchor="middle" fill="#F0F3F6" font-size="28" font-weight="600">629</text>
+    <text x="715" y="64" text-anchor="middle" fill="#F0F3F6" font-size="28" font-weight="600">636</text>
     <text x="715" y="88" text-anchor="middle" fill="#6E7681" font-size="11" letter-spacing="1.4">DAYS TRACKED</text>
-    <text x="970" y="64" text-anchor="middle" fill="#F0F3F6" font-size="28" font-weight="600">96.8%</text>
+    <text x="970" y="64" text-anchor="middle" fill="#F0F3F6" font-size="28" font-weight="600">97.7%</text>
     <text x="970" y="88" text-anchor="middle" fill="#6E7681" font-size="11" letter-spacing="1.4">CACHE REUSED</text>
   </g>
 

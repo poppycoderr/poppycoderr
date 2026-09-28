@@ -144,7 +144,7 @@ def render(total: int, tracked_days: int, cache_reuse: float, updated: str) -> s
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parents[1] / "assets" / "ai-usage.svg")
+    parser.add_argument("--output", type=Path, default=Path(__file__).resolve().parents[2] / "assets" / "ai-usage.svg")
     parser.add_argument("--claude-root", type=Path, default=Path.home() / ".claude" / "projects")
     parser.add_argument("--codex-root", type=Path, default=Path.home() / ".codex" / "sessions")
     args = parser.parse_args()
