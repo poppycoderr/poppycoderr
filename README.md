@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/elijahdu/">LinkedIn</a>
   &nbsp;·&nbsp;
-  <a href="https://poppycoder.netlify.app/">Technical notes</a>
+  <a href="https://domaindrivenkit.com/">Technical notes</a>
   &nbsp;·&nbsp;
   <a href="mailto:poppycoder@gmail.com">Mail</a>
 </p>
