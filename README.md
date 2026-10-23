@@ -53,8 +53,8 @@ explicit boundary  ─▶  encoded rule  ─▶  tested failure path  ─▶  me
 
 <sub>A few public repositories where I test ideas and write down trade-offs. Small, evolving, and honest about it.</sub>
 
-- [grounded-access](https://github.com/poppycoderr/grounded-access) — permission-aware retrieval with reproducible evaluation
 - [domain-driven-kit](https://github.com/poppycoderr/domain-driven-kit) — Spring Boot DDD patterns and executable architecture rules
+- [grounded-access](https://github.com/poppycoderr/grounded-access) — permission-aware retrieval with reproducible evaluation
 
 <br />
 
